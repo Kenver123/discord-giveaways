@@ -24,14 +24,14 @@ exports.GiveawayMessages = {
     giveaway: '<a:blue_giveaway:1347144958557032502> **GIVEAWAY** <a:blue_giveaway:1347144958557032502>',
     giveawayEnded: '<a:blue_giveaway:1347144958557032502> **GIVEAWAY ENDED** <a:blue_giveaway:1347144958557032502>',
     title: '<a:blue_gift:1347144969172942912> **{this.prize}** <a:blue_gift:1347144969172942912>',
-    inviteToParticipate: 'React with 🎉 to participate!',
+    inviteToParticipate: '-# React with 🎉 to participate!',
     winMessage: '### <a:stolen_emoji:1346589325118410904> Congratulations, {winners}! You won **{this.prize}**!\n{this.messageURL}',
-    drawing: 'Drawing: {timestamp}',
+    drawing: '<a:Dot:1294431755020927007> Drawing: {timestamp}',
     dropMessage: 'Be the first to react with 🎉 !',
     embedFooter: '{this.winnerCount} winner(s)',
     noWinner: 'Giveaway cancelled, no valid participations.',
     winners: '<a:Dot:1294431755020927007> Winner(s):',
-    endedAt: '<a:Dot:1294431755020927007> Ended at',
+    endedAt: 'Ended at',
     hostedBy: '<a:Dot:1294431755020927007> Hosted by: {this.hostedBy}'
 };
 
