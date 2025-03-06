@@ -21,18 +21,18 @@ exports.DELETE_DROP_DATA_AFTER = 6.048e8; // 1 week
  * @property {string} [hostedBy='Hosted by: {this.hostedBy}'] Below the "inviteToParticipate" message, in the description of the embed.
  */
 exports.GiveawayMessages = {
-    giveaway: '🎉🎉 **GIVEAWAY** 🎉🎉',
-    giveawayEnded: '🎉🎉 **GIVEAWAY ENDED** 🎉🎉',
-    title: '{this.prize}',
+    giveaway: '<a:blue_giveaway:1347144958557032502> **GIVEAWAY** <a:blue_giveaway:1347144958557032502>',
+    giveawayEnded: '<a:blue_giveaway:1347144958557032502> **GIVEAWAY ENDED** <a:blue_giveaway:1347144958557032502>',
+    title: '<a:blue_gift:1347144969172942912> **{this.prize}** <a:blue_gift:1347144969172942912>',
     inviteToParticipate: 'React with 🎉 to participate!',
-    winMessage: 'Congratulations, {winners}! You won **{this.prize}**!\n{this.messageURL}',
+    winMessage: '### <a:stolen_emoji:1346589325118410904> Congratulations, {winners}! You won **{this.prize}**!\n{this.messageURL}',
     drawing: 'Drawing: {timestamp}',
     dropMessage: 'Be the first to react with 🎉 !',
     embedFooter: '{this.winnerCount} winner(s)',
     noWinner: 'Giveaway cancelled, no valid participations.',
-    winners: 'Winner(s):',
-    endedAt: 'Ended at',
-    hostedBy: 'Hosted by: {this.hostedBy}'
+    winners: '<a:Dot:1294431755020927007> Winner(s):',
+    endedAt: '<a:Dot:1294431755020927007> Ended at',
+    hostedBy: '<a:Dot:1294431755020927007> Hosted by: {this.hostedBy}'
 };
 
 /**
@@ -166,7 +166,7 @@ exports.GiveawaysManagerOptions = {
         exemptMembers: () => false,
         embedColor: '#FF0000',
         embedColorEnd: '#000000',
-        reaction: '🎉',
+        reaction: '<a:blue_giveaway:1347144958557032502>',
         lastChance: {
             enabled: false,
             content: '⚠️ **LAST CHANCE TO ENTER !** ⚠️',
@@ -189,7 +189,7 @@ exports.GiveawaysManagerOptions = {
 exports.GiveawayRerollOptions = {
     winnerCount: null,
     messages: {
-        congrat: ':tada: New winner(s): {winners}! Congratulations, you won **{this.prize}**!\n{this.messageURL}',
+        congrat: '<a:stolen_emoji:1346589325118410904> New winner(s): {winners}! Congratulations, you won **{this.prize}**!\n{this.messageURL}',
         error: 'No valid participations, no new winner(s) can be chosen!',
         replyWhenNoWinner: true
     }
