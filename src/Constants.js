@@ -28,7 +28,7 @@ exports.GiveawayMessages = {
     winMessage: '### <a:stolen_emoji:1346589325118410904> Congratulations, {winners}! You won **{this.prize}**!\n{this.messageURL}',
     drawing: '<a:Dot:1294431755020927007> Drawing: {timestamp}',
     dropMessage: 'Be the first to react with <a:blue_giveaway:1347144958557032502> !',
-    embedFooter: '',
+    embedFooter: 'Win prize and enjoy',
     noWinner: 'Giveaway cancelled, no valid participations.',
     winners: '<a:Dot:1294431755020927007> Winner(s):',
     endedAt: 'Ended at',
