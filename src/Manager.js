@@ -98,7 +98,7 @@ class GiveawaysManager extends EventEmitter {
                           ? giveaway.lastChance.content + '\n\n'
                           : '') +
                           giveaway.messages.inviteToParticipate +
-                          '\n' +
+                          '\n' + giveaway.winnerCount ? '\n' + giveaway.messages.winnerDesc : '' +
                           giveaway.messages.drawing.replace(
                               '{timestamp}',
                               giveaway.endAt === Infinity
